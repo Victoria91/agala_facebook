@@ -25,7 +25,9 @@ defmodule Agala.Provider.Facebook.MixProject do
     [
       {:agala, "~> 3.0"},
       {:jason, "~> 1.1"},
-      {:plug, "~> 1.6"}
+      {:plug, "~> 1.6"},
+      {:httpoison, "~> 1.2"},
+      {:hackney, "~> 1.13"}
     ]
   end
 

@@ -30,7 +30,6 @@ defmodule Agala.Provider.Facebook.Controllers.Verification do
   end
 
   defp verify_request(conn) do
-    IO.inspect(conn)
     conn
     |> View.render(:unauthorized, %{error: "unauthorized!"})
   end
